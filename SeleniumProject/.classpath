@@ -6,7 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="E:/Academics/Computer Science/1-Software Testing/Course Files/SeleniumJars/selenium-server-standalone-3.141.59.jar"/>
-	<classpathentry kind="lib" path="E:/Academics/Computer Science/1-Software Testing/Course Files/SeleniumJars/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/Computer Science/Software Testing/Projects/SeleniumJars/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/Computer Science/Software Testing/Projects/SeleniumJars/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
