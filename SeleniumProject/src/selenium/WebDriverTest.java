@@ -10,7 +10,7 @@ public class WebDriverTest {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+		System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 
 		// ClassName objName = new ClassName(); i.e. FirefoxDriver driver = new
 		// FirefoxDriver();

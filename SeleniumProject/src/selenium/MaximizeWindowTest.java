@@ -8,7 +8,7 @@ public class MaximizeWindowTest {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+		System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 		FirefoxDriver driver = new FirefoxDriver();
 
 		driver.get("https://www.google.com/");

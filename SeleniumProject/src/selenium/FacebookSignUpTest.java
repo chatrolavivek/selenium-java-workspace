@@ -14,7 +14,7 @@ public class FacebookSignUpTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+		System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
 

@@ -9,7 +9,7 @@ public class YahooLoginTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+		System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 		FirefoxDriver driver = new FirefoxDriver(); 
 		
 		driver.get("https://login.yahoo.com/?.src=fpctx&.intl=ca&.lang=en-CA&.done=https://ca.yahoo.com");

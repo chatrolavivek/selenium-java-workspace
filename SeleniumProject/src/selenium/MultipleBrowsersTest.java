@@ -16,16 +16,16 @@ public class MultipleBrowsersTest {
 	public static void main(String[] args) throws IOException {
 
 		WebDriver driver;
-		
+
 		FileInputStream fs = new FileInputStream(
-				"E:\\Academics\\Computer Science\\1-Software Testing\\Course Files\\testing\\prop.properties");
+				"E:\\Computer Science\\Software Testing\\Projects\\testing\\prop.properties");
 		Properties prop = new Properties();
 		prop.load(fs);
-		
-		String browser = prop.getProperty("browser");	//	it's called from database i.e. excel or any other files
+
+		String browser = prop.getProperty("browser"); // it's called from database i.e. excel or any other files
 
 		if (browser.equals("Firefox")) {
-			System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+			System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 			driver = new FirefoxDriver(); // to run in Firefox browser
 		} else if (browser.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", CommonResources.getChromeDriverLocation());

@@ -11,7 +11,7 @@ public class SeleniumFirstClass {
 
 		// System.setProperty("webdriver.gecko.driver", "E:\\Academics\\Computer
 		// Science\\1-Software Testing\\Course Files\\SeleniumJars\\geckodriver.exe");
-		System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+		System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 
 		FirefoxDriver driver = new FirefoxDriver(); // to run in Firefox browser
 

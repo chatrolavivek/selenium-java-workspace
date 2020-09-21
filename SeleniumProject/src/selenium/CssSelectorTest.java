@@ -9,7 +9,7 @@ public class CssSelectorTest {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.gecko.driver", CommonResources.geckoDriverLocation);
+		System.setProperty("webdriver.gecko.driver", CommonResources.getGeckoDriverLocation());
 
 		FirefoxDriver driver = new FirefoxDriver(); // to run in Firefox browser
 		driver.get("https://www.facebook.com/");
