@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="E:/Computer Science/Software Testing/Projects/SeleniumJars/poi-ooxml-3.6-20091214.jar"/>
 	<classpathentry kind="lib" path="E:/Computer Science/Software Testing/Projects/SeleniumJars/poi-ooxml-schemas-3.6-20091214.jar"/>
 	<classpathentry kind="lib" path="E:/Computer Science/Software Testing/Projects/SeleniumJars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Computer Science/Software Testing/Projects/SeleniumJars/log4j-1.2.14.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
