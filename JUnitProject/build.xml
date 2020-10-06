@@ -2,7 +2,7 @@
 <!DOCTYPE project [
 ]>
 
-<project name="JunitProject2" default="usage" basedir=".">  
+<project name="JunitProject" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
 	<tstamp>

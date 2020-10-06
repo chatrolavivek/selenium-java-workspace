@@ -8,7 +8,7 @@ public class Testing3 {
 
 	SoftAssert softAssert = new SoftAssert();
 
-	@Test(priority = 1) 
+	@Test(priority = 1, groups = {"Vivek"}) 
 	public void homeTest() {
 		System.out.println("I am in home test");
 		System.out.println("Before Assertion");
@@ -17,7 +17,7 @@ public class Testing3 {
 		Assert.assertEquals("abc", "abcd");
 	}
 
-	@Test(priority = 2, dependsOnMethods = "homeTest") // Edit user
+	@Test(priority = 2, dependsOnMethods = "homeTest", groups = {"Smoke", "Sanity"}) // Edit user
 	public void mainTest() {
 		System.out.println("I am in main test");
 		System.out.println("Before main Assertion");
@@ -27,7 +27,7 @@ public class Testing3 {
 		softAssert.assertAll();
 	}
 
-	@Test(priority = 3, dependsOnMethods = "mainTest") // Delete user
+	@Test(priority = 3, dependsOnMethods = "mainTest", groups = {"Smoke", "Vivek"}) // Delete user
 	public void endTest() {
 		System.out.println("I am in end test");
 		System.out.println("Before end Assertion");
