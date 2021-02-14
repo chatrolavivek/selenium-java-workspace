@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20678" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:34Z">
+  <suite name="Default suite" duration-ms="19636" started-at="2021-02-14T04:11:20Z" finished-at="2021-02-14T04:11:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20678" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:34Z">
+    <test name="Default test" duration-ms="19636" started-at="2021-02-14T04:11:20Z" finished-at="2021-02-14T04:11:39Z">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:test.LoginTest@72057ecf]" name="startReport" is-config="true" duration-ms="84" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:14Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:test.LoginTest@72057ecf]" name="startReport" is-config="true" duration-ms="84" started-at="2021-02-14T04:11:20Z" finished-at="2021-02-14T04:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.LoginTest@72057ecf]" name="beforeMethod" is-config="true" duration-ms="6056" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.LoginTest@72057ecf]" name="beforeMethod" is-config="true" duration-ms="6384" started-at="2021-02-14T04:11:20Z" finished-at="2021-02-14T04:11:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginWithWrongEmailTest()[pri:0, instance:test.LoginTest@72057ecf]" name="loginWithWrongEmailTest" duration-ms="2344" started-at="2021-02-14T03:03:20Z" finished-at="2021-02-14T03:03:22Z">
+        <test-method status="PASS" signature="loginWithWrongEmailTest()[pri:0, instance:test.LoginTest@72057ecf]" name="loginWithWrongEmailTest" duration-ms="2402" started-at="2021-02-14T04:11:26Z" finished-at="2021-02-14T04:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongEmailTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@72057ecf]" name="afterMethod" is-config="true" duration-ms="868" started-at="2021-02-14T03:03:22Z" finished-at="2021-02-14T03:03:23Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@72057ecf]" name="afterMethod" is-config="true" duration-ms="835" started-at="2021-02-14T04:11:29Z" finished-at="2021-02-14T04:11:29Z">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.LoginTest@72057ecf]" name="beforeMethod" is-config="true" duration-ms="6084" started-at="2021-02-14T03:03:23Z" finished-at="2021-02-14T03:03:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.LoginTest@72057ecf]" name="beforeMethod" is-config="true" duration-ms="5807" started-at="2021-02-14T04:11:29Z" finished-at="2021-02-14T04:11:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginWithWrongPasswordTest()[pri:0, instance:test.LoginTest@72057ecf]" name="loginWithWrongPasswordTest" duration-ms="4070" started-at="2021-02-14T03:03:29Z" finished-at="2021-02-14T03:03:33Z">
+        <test-method status="PASS" signature="loginWithWrongPasswordTest()[pri:0, instance:test.LoginTest@72057ecf]" name="loginWithWrongPasswordTest" duration-ms="2939" started-at="2021-02-14T04:11:35Z" finished-at="2021-02-14T04:11:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongPasswordTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@72057ecf]" name="afterMethod" is-config="true" duration-ms="929" started-at="2021-02-14T03:03:33Z" finished-at="2021-02-14T03:03:34Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@72057ecf]" name="afterMethod" is-config="true" duration-ms="952" started-at="2021-02-14T04:11:38Z" finished-at="2021-02-14T04:11:39Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:test.LoginTest@72057ecf]" name="endReport" is-config="true" duration-ms="229" started-at="2021-02-14T03:03:34Z" finished-at="2021-02-14T03:03:34Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:test.LoginTest@72057ecf]" name="endReport" is-config="true" duration-ms="216" started-at="2021-02-14T04:11:39Z" finished-at="2021-02-14T04:11:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

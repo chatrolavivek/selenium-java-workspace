@@ -30,7 +30,6 @@ public class LoginTest {
 		extent.addSystemInfo("Host Name", "VivekTesting").addSystemInfo("Environment", "Automation Testing")
 				.addSystemInfo("User Name", "Vivek Chatrola");
 		extent.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
-		extent.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
 	}
 
 	@BeforeMethod
@@ -47,13 +46,12 @@ public class LoginTest {
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(LogStatus.SKIP, "Test Case Skipped is " + result.getName());
 		}
-		extent.endTest(logger);
 		lp.closeBrowser();
+		extent.endTest(logger);
 	}
 
 	@Test
 	public void loginWithWrongPasswordTest() throws InterruptedException {
-		extent.startTest("Login With Wrong Password", "Correct Email and Wrong Password");
 		logger = extent.startTest("Login With Wrong Password");
 		logger.log(LogStatus.PASS, "Test Case Passed is passTest");
 
@@ -68,7 +66,6 @@ public class LoginTest {
 	@Test
 	public void loginWithWrongEmailTest() throws InterruptedException {
 		logger = extent.startTest("Login With Wrong Email");
-		extent.startTest("Login With Wrong Email", "Wrong Email");
 		logger.log(LogStatus.PASS, "Test Case Passed is passTest");
 
 		lp.enterEmail(df.wrongEmail);
