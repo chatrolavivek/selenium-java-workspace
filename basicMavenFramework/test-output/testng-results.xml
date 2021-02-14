@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20678" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20678" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:34Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:test.LoginTest@72057ecf]" name="startReport" is-config="true" duration-ms="84" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.LoginTest@72057ecf]" name="beforeMethod" is-config="true" duration-ms="6056" started-at="2021-02-14T03:03:14Z" finished-at="2021-02-14T03:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithWrongEmailTest()[pri:0, instance:test.LoginTest@72057ecf]" name="loginWithWrongEmailTest" duration-ms="2344" started-at="2021-02-14T03:03:20Z" finished-at="2021-02-14T03:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongEmailTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@72057ecf]" name="afterMethod" is-config="true" duration-ms="868" started-at="2021-02-14T03:03:22Z" finished-at="2021-02-14T03:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithWrongEmailTest status=SUCCESS method=LoginTest.loginWithWrongEmailTest()[pri:0, instance:test.LoginTest@72057ecf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.LoginTest@72057ecf]" name="beforeMethod" is-config="true" duration-ms="6084" started-at="2021-02-14T03:03:23Z" finished-at="2021-02-14T03:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithWrongPasswordTest()[pri:0, instance:test.LoginTest@72057ecf]" name="loginWithWrongPasswordTest" duration-ms="4070" started-at="2021-02-14T03:03:29Z" finished-at="2021-02-14T03:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongPasswordTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@72057ecf]" name="afterMethod" is-config="true" duration-ms="929" started-at="2021-02-14T03:03:33Z" finished-at="2021-02-14T03:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithWrongPasswordTest status=SUCCESS method=LoginTest.loginWithWrongPasswordTest()[pri:0, instance:test.LoginTest@72057ecf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:test.LoginTest@72057ecf]" name="endReport" is-config="true" duration-ms="229" started-at="2021-02-14T03:03:34Z" finished-at="2021-02-14T03:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
