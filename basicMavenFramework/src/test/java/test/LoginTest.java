@@ -9,6 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -17,6 +18,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import data.DataFile;
 import pages.LoginPage;
+import utilities.Xls_Reader;
 
 public class LoginTest {
 	ExtentReports extent;
@@ -50,20 +52,21 @@ public class LoginTest {
 		extent.endTest(logger);
 	}
 
-	@Test
-	public void loginWithWrongPasswordTest() throws InterruptedException {
+	@Test(dataProviderClass = DataFile.class, dataProvider = "getLoginData", priority = 1)
+	public void loginWithWrongPasswordTest(String username, String password) throws InterruptedException {
 		logger = extent.startTest("Login With Wrong Password");
 		logger.log(LogStatus.PASS, "Test Case Passed is passTest");
 
 		Assert.assertTrue(true);
-		lp.enterEmail(df.correctEmail);
-		lp.enterPassword(df.wrongPassword);
+		lp.enterEmail(username);
+		lp.enterPassword(password);
 		String actualPasswordErr = lp.readPasswordError();
 		Assert.assertEquals(actualPasswordErr, df.expectedPasswordError);
 
 	}
 
-	@Test
+
+	@Test(priority = 2)
 	public void loginWithWrongEmailTest() throws InterruptedException {
 		logger = extent.startTest("Login With Wrong Email");
 		logger.log(LogStatus.PASS, "Test Case Passed is passTest");
